@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Analog Clock</title>
+  <link rel="stylesheet" href="../App/Application/popup.css">
+</head>
+<body>
+  <div class="clock">
+    <div class="hour" id="hour"></div>
+    <div class="minute" id="minute"></div>
+    <div class="second" id="second"></div>
+  </div>
+
+  <div class="timer">
+    <input type="number" id="timerInput" placeholder="Minutes" min="1" />
+    <button id="startTimerBtn">Start Timer</button>
+  </div>
+
+  <div class="alarm">
+    <input type="time" id="alarmTime" />
+    <button id="setAlarmBtn">Set Alarm</button>
+  </div>
+
+  <script src="../App/config/popup.js"></script>
+</body>
+</html>

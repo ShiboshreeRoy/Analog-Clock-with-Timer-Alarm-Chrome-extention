@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, sans-serif;
+    width: 300px;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #1a1a1a;
+    color: white;
+    text-align: center;
+    margin: 0;
+  }
+  
+  .clock {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    margin: 20px auto;
+    border-radius: 50%;
+    background-color: #333;
+    border: 5px solid #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .clock div {
+    position: absolute;
+    width: 4px;
+    height: 50%;
+    background-color: white;
+    transform-origin: 100%;
+    transition: all 0.5s;
+  }
+  
+  #hour {
+    width: 6px;
+  }
+  
+  #minute {
+    width: 4px;
+  }
+  
+  #second {
+    width: 2px;
+    background-color: red;
+  }
+  
+  .timer, .alarm {
+    margin-top: 20px;
+  }
+  
+  input[type="number"], input[type="time"] {
+    padding: 5px;
+    width: 80%;
+    margin-bottom: 10px;
+    font-size: 14px;
+    border-radius: 5px;
+    border: 1px solid #fff;
+    color: #333;
+  }
+  
+  button {
+    padding: 10px;
+    background-color: #ff5722;
+    border: none;
+    color: white;
+    width: 80%;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  button:hover {
+    background-color: #e64a19;
+  }
+  

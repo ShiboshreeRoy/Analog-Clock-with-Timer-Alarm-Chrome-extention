@@ -1,0 +1,30 @@
+{
+    "manifest_version": 3,
+    "name": "Analog Clock with Timer & Alarm",
+    "description": "A professional analog clock extension with timer and alarm functionality.",
+    "version": "1.0.1",
+    "author": "Shiboshree Roy",
+    "dev": "Shiboshree Roy",
+    "action": {
+      "default_popup": "popup/popup.html",
+      "default_icon": {
+        "16": "icons/icon.png",
+        "48": "icons/icon.png",
+        "128": "icons/icon.png"
+      }
+    },
+    "permissions": [
+      "storage",
+      "alarms",
+      "notifications"
+    ],
+    "background": {
+      "service_worker": "background.js"
+    },
+    "icons": {
+      "16": "icons/icon.png",
+      "48": "icons/icon.png",
+      "128": "icons/icon.png"
+    }
+  }
+  
